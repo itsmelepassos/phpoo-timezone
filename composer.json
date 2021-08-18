@@ -1,5 +1,5 @@
 {
-    "name": "itsmelepassos/timezonephp",
+    "name": "itsmelepassos/phpoo-timezone",
     "description": "Timezone para PHP é uma classe do tipo Helper que permite a adoção de qualquer fuso-horário sem a necessidade de se alterar o arquivo php.ini. Ideal para CRUD.",
     "keywords": [
         "ItsMeLePassos",
