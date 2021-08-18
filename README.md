@@ -30,6 +30,10 @@ necessidade de se alterar o arquivo php.ini do seu servidor.
     - PT-BR: Instalável via Composer
 
 ---
+#### EN: Before installing, make sure you have Composer 2.x installed (Composer 1.x is not supported)
+PT-BR: Antes de instalar, certifique-se de estar com o Composer 2.x instalado (Composer 1.x não é suportado)
+
+---
 
 ###### EN: How to install in my project? A: Insert this line below in your composer.json file, as a "require"
 
