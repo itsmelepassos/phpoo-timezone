@@ -82,11 +82,15 @@ use ItsMeLePassos\Timezone\Timezone;
  */
 echo date('d/m/Y H:i:s');
 ```
+
 ---
+
 ### Support/Suporte
 
 ###### EN: In case you discover any vulnerability or wish to contribute to the project, please contact the developer (me) by email [itsmelepassos@gmail.com]
-PT-BR: No caso de descobrir alguma vulnerabilidade ou desejar contribuir para o projeto, entre em contato com o desenvolvedor (eu) por e-mail [itsmelepassos@gmail.com]
+
+PT-BR: No caso de descobrir alguma vulnerabilidade ou desejar contribuir para o projeto, entre em contato com o
+desenvolvedor (eu) por e-mail [itsmelepassos@gmail.com]
 
 ---
 
@@ -95,10 +99,12 @@ PT-BR: No caso de descobrir alguma vulnerabilidade ou desejar contribuir para o 
 ---
 
 ## Credits/Créditos
+
 - [Leandro Passos](https://github.com/itsmelepassos) (Developer)
 
 ---
 
 ## License
 
-The MIT License (MIT). Please see [License File](https://github.com/itsmelepassos/phpoo-timezone/blob/master/LICENSE) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/itsmelepassos/phpoo-timezone/blob/master/LICENSE)
+for more information.
