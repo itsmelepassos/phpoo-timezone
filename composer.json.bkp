@@ -1,0 +1,28 @@
+{
+    "name": "itsmelepassos/phpoo-timezone",
+    "description": "Timezone para PHP é uma classe do tipo Helper que permite a adoção de qualquer fuso-horário sem a necessidade de se alterar o arquivo php.ini. Ideal para CRUD.",
+    "keywords": [
+        "ItsMeLePassos",
+        "Timezonephp",
+        "Timezone",
+        "PHP"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ItsMeLePassos\\Timezone\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leandro Passos",
+            "email": "itsmelepassos@gmail.com",
+            "role": "Developer Analyst"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.2|^8.0"
+    }
+}
