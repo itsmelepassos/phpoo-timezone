@@ -83,16 +83,56 @@ use ItsMeLePassos\Timezone\Timezone;
 echo date('d/m/Y H:i:s');
 ```
 
+###### EN: Translation results If you want to use it in any controller, the recommendation is to insert it in the General Controller of your system and call from as follows, directly inserting the parameter when calling the tiemzone method, or a variable, or a constant:
+
+PT-BR: Caso queira usar em algum controlador, a recomendação é inserir no Controller geral do seu sistema e chamar da
+seguinte forma, inserindo diretamente o parâmetro ao chamar o método tiemzone, ou uma variável, ou uma constante:
+
+```php
+<?php
+use ItsMeLePassos\Timezone\Timezone;
+
+class Controller
+{
+    /** @var Timezone */
+    protected $timezone;
+    
+    /**
+     * Controller constructor.
+     */
+    public function __construct()
+    {
+        $this->timezone = (new Timezone())->timezone('America/Sao_Paulo');
+    }
+}
+```
+
+```php
+<?php
+
+/**
+ * EN: No need to call anything else: the inherited class's constructor already assigns the custom timezone.
+ * PT-BR: Não precisa chamar mais nada: o construtor da classe herdada já atribui o fuso horário personalizado.
+ */
+class FooController extends Controller
+{
+    
+}
+```
+
 ---
 
 ### Support/Suporte
 
-###### EN: In case you discover any vulnerability or wish to contribute to the project, please contact the developer (me) by email [itsmelepassos@gmail.com]
+###### EN: In case you discover any vulnerability, suggest some fixes or wish to contribute to the project, please contact the developer (me) by email [itsmelepassos@gmail.com]
 
-PT-BR: No caso de descobrir alguma vulnerabilidade ou desejar contribuir para o projeto, entre em contato com o
-desenvolvedor (eu) por e-mail [itsmelepassos@gmail.com]
+PT-BR: No caso de descobrir alguma vulnerabilidade, sugerir algumas correções ou desejar contribuir para o projeto,
+entre em contato com o desenvolvedor (eu) por e-mail [itsmelepassos@gmail.com]
 
 ---
+
+###### EN: Test/implement at ease
+PT-BR: Teste/implemente à vontade
 
 ### ThankYou/Obrigado
 
