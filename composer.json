@@ -7,7 +7,6 @@
         "Timezone",
         "PHP"
     ],
-    "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
