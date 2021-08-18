@@ -14,7 +14,7 @@ class Timezone
     /**
      * @param mixed $timezone
      */
-    final public function timezone(string $timezone = null): bool
+    public function timezone(string $timezone = null): bool
     {
         return date_default_timezone_set($timezone);
     }
