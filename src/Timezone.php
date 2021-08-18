@@ -12,13 +12,9 @@ namespace ItsMeLePassos\Timezone;
 class Timezone
 {
     /**
-     * setTimezone - define a timezone in the PHP official list
-     * https://www.php.net/manual/en/timezones.php
-     *
-     * @param string $timezone
-     * @return string
+     * @param mixed $timezone
      */
-    final public function setTimezone(string $timezone): string
+    final public function timezone(string $timezone = null): bool
     {
         return date_default_timezone_set($timezone);
     }
