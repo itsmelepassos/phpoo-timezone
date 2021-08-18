@@ -1,4 +1,4 @@
-# phpoo-timezone
+# PHPOO-Timezone by Leandro Passos
 
 [![Maintainer](http://img.shields.io/badge/maintainer-@itsmelepassos-blue.svg?style=flat-square)](https://twitter.com/itsmelepassos)
 [![Source Code](http://img.shields.io/badge/source-itsmelepassos/phpoo--timezone-blue.svg?style=flat-square)](https://github.com/itsmelepassos/phpoo-timezone)
@@ -9,8 +9,54 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/itsmelepassos/phpoo-timezone.svg?style=flat-square)](https://scrutinizer-ci.com/g/itsmelepassos/phpoo-timezone)
 [![Total Downloads](https://img.shields.io/packagist/dt/itsmelepassos/phpoo-timezone.svg?style=flat-square)](https://packagist.org/packages/itsmelepassos/phpoo-timezone)
 
+###### EN: PHPOO-Timezone is a package that allows the developer to change the time zone in your software without having to change its server's php.ini file.
 
-`````php
+PT-BR: PHPOO-Timezone é um pacote que permite que o desenvolvedor possa alterar o fuso horário em seu software sem a
+necessidade de se alterar o arquivo php.ini do seu servidor.
+
+---
+
+### Highlights/Destaques
+
+- EN: Simple installation
+    - PT-BR: Instalação Simples
+
+
+- EN: PSR-2 and PSR-4 ready
+    - PT-BR: Pronto para os padrões PSR-2 e PSR-4
+
+
+- EN: Installable via Composer
+    - PT-BR: Instalável via Composer
+
+---
+
+###### EN: How to install in my project? A: Insert this line below in your composer.json file, as a "require"
+
+#### PT-BR: Como instalar em meu projeto? R: Insira esta linha abaixo em seu arquivo composer.json, como um "require"
+
+```bash
+"itsmelepassos/phpoo-timezone": "^1.0"
+```
+
+###### EN: Or type this command in your terminal or bash
+
+#### PT-BR: Ou digite este comando em seu terminal ou bash
+
+```bash
+composer require itsmelepassos/phpoo-timezone
+```
+
+---
+
+## Documentation/Documentação
+
+###### EN: There is an example file of how you can call Timezone directly in your index.php file in the "example" folder, or you can also refer to the code below to serve as an example.
+
+PT-BR: Há um arquivo de exemplo de como você pode chamar direto o Timezone em seu arquivo index.php na pasta "example",
+ou pode também consultar o código abaixo para servir como exemplo
+
+```php
 <?php
 
 /**
@@ -35,5 +81,24 @@ use ItsMeLePassos\Timezone\Timezone;
  * Exibe a hora correspondente ao fuso-horário configurado acima
  */
 echo date('d/m/Y H:i:s');
-````
+```
+---
+### Support/Suporte
 
+###### EN: In case you discover any vulnerability or wish to contribute to the project, please contact the developer (me) by email [itsmelepassos@gmail.com]
+PT-BR: No caso de descobrir alguma vulnerabilidade ou desejar contribuir para o projeto, entre em contato com o desenvolvedor (eu) por e-mail [itsmelepassos@gmail.com]
+
+---
+
+### ThankYou/Obrigado
+
+---
+
+## Credits/Créditos
+- [Leandro Passos](https://github.com/itsmelepassos) (Developer)
+
+---
+
+## License
+
+The MIT License (MIT). Please see [License File](https://github.com/itsmelepassos/phpoo-timezone/blob/master/LICENSE) for more information.
